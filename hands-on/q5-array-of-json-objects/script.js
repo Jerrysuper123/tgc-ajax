@@ -1,4 +1,6 @@
-let userArray;
+//need to set it as array [], so that second function below will not crash
+//can be iterable
+let userArray = [];
 
 document
   .querySelector("#load-users-btn")
